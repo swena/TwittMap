@@ -83,6 +83,7 @@
 	<div id="map_canvas" style="width:1200px; height:600px;"></div>
 
 <?php
+
 	require_once ('init.php');
     require_once ('codebird/src/codebird.php');
 
@@ -90,7 +91,7 @@
     $cb->setConsumerKey('iJl4WSh3qRnKeoe31GiH08EJW', 'bFGgDkZLH1LdVVcT1faEtANBOInHjQ2QiYlUKFIQ8O996mI54F');
     $cb->setToken('2655667207-aGDwCCxdnH3fA2diZCE5zM0kaRJNWwZ5hnuzZ0P', 'iPk97VGMCa078MvJ2EByeXOtczaHH9gdcsDKSRn1HvESp');
     $keylist = array('Donald Trump','New York','Manhattan','USA','Bill Gates','NetFlix','Hillary Clinton','White House','Mark Zuckerberg');
-
+    $es = new Elasticsearch\Client();
     if(!isset($_POST['noextract']))
     {
 	    for($j = 0; $j < count($keylist); $j++)
@@ -129,7 +130,7 @@
 	if(isset($_POST["submit"]))
 	{
 		$key = $_POST["keyword"];
-		$maptype = $_POST["maptype"];
+		//$maptype = $_POST["maptype"];
 		//$q = 'trump';
 	    $query = $es->search([
 	            'body' => [

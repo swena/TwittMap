@@ -1,0 +1,71 @@
+[2016-10-26 12:05:46,751][INFO ][node                     ] [Freakshow] stopping ...
+[2016-10-26 12:05:47,323][INFO ][node                     ] [Freakshow] stopped
+[2016-10-26 12:05:47,323][INFO ][node                     ] [Freakshow] closing ...
+[2016-10-26 12:05:47,346][INFO ][node                     ] [Freakshow] closed
+[2016-10-26 12:06:00,106][INFO ][node                     ] [Great Gambonnos] version[2.4.1], pid[58599], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-10-26 12:06:00,107][INFO ][node                     ] [Great Gambonnos] initializing ...
+[2016-10-26 12:06:01,940][INFO ][plugins                  ] [Great Gambonnos] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-10-26 12:06:02,069][INFO ][env                      ] [Great Gambonnos] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [21.7gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-10-26 12:06:02,069][INFO ][env                      ] [Great Gambonnos] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-10-26 12:06:02,071][WARN ][env                      ] [Great Gambonnos] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-10-26 12:06:08,784][INFO ][node                     ] [Great Gambonnos] initialized
+[2016-10-26 12:06:08,784][INFO ][node                     ] [Great Gambonnos] starting ...
+[2016-10-26 12:06:09,073][INFO ][transport                ] [Great Gambonnos] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-10-26 12:06:09,093][INFO ][discovery                ] [Great Gambonnos] elasticsearch/EEEJnBPNSg-s3MaHDEh1IQ
+[2016-10-26 12:06:12,153][INFO ][cluster.service          ] [Great Gambonnos] new_master {Great Gambonnos}{EEEJnBPNSg-s3MaHDEh1IQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-10-26 12:06:12,178][INFO ][http                     ] [Great Gambonnos] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-10-26 12:06:12,178][INFO ][node                     ] [Great Gambonnos] started
+[2016-10-26 12:06:12,284][INFO ][gateway                  ] [Great Gambonnos] recovered [1] indices into cluster_state
+[2016-10-26 12:06:13,511][INFO ][cluster.routing.allocation] [Great Gambonnos] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][1]] ...]).
+[2016-10-26 12:23:00,255][INFO ][cluster.metadata         ] [Great Gambonnos] [tweets] update_mapping [tweet]
+[2016-10-26 12:40:15,167][INFO ][node                     ] [Great Gambonnos] stopping ...
+[2016-10-26 12:40:15,454][INFO ][node                     ] [Great Gambonnos] stopped
+[2016-10-26 12:40:15,455][INFO ][node                     ] [Great Gambonnos] closing ...
+[2016-10-26 12:40:15,473][INFO ][node                     ] [Great Gambonnos] closed
+[2016-10-26 12:40:22,515][INFO ][node                     ] [Beetle II] version[2.4.1], pid[60875], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-10-26 12:40:22,515][INFO ][node                     ] [Beetle II] initializing ...
+[2016-10-26 12:40:23,976][INFO ][plugins                  ] [Beetle II] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-10-26 12:40:24,041][INFO ][env                      ] [Beetle II] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [22.8gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-10-26 12:40:24,042][INFO ][env                      ] [Beetle II] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-10-26 12:40:24,043][WARN ][env                      ] [Beetle II] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-10-26 12:40:26,273][INFO ][node                     ] [Beetle II] initialized
+[2016-10-26 12:40:26,273][INFO ][node                     ] [Beetle II] starting ...
+[2016-10-26 12:40:26,367][INFO ][transport                ] [Beetle II] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-10-26 12:40:26,372][INFO ][discovery                ] [Beetle II] elasticsearch/YhMbWyYPS46SrgYlWN5L6w
+[2016-10-26 12:40:29,423][INFO ][cluster.service          ] [Beetle II] new_master {Beetle II}{YhMbWyYPS46SrgYlWN5L6w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-10-26 12:40:29,437][INFO ][http                     ] [Beetle II] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-10-26 12:40:29,437][INFO ][node                     ] [Beetle II] started
+[2016-10-26 12:40:29,492][INFO ][gateway                  ] [Beetle II] recovered [1] indices into cluster_state
+[2016-10-26 12:40:30,256][INFO ][cluster.routing.allocation] [Beetle II] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][4]] ...]).
+[2016-10-26 12:53:21,821][INFO ][cluster.metadata         ] [Beetle II] [tweets] creating index, cause [auto(delete api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 12:53:21,945][INFO ][cluster.routing.allocation] [Beetle II] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][4]] ...]).
+[2016-10-26 12:53:38,827][INFO ][cluster.metadata         ] [Beetle II] [tweets] create_mapping [tweet]
+[2016-10-26 12:59:10,077][INFO ][cluster.metadata         ] [Beetle II] [tweets] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 12:59:10,145][INFO ][cluster.routing.allocation] [Beetle II] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][4]] ...]).
+[2016-10-26 12:59:10,153][INFO ][cluster.metadata         ] [Beetle II] [tweets] create_mapping [tweet]
+[2016-10-26 13:02:42,913][INFO ][cluster.metadata         ] [Beetle II] [tweets] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 13:02:42,996][INFO ][cluster.routing.allocation] [Beetle II] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][4]] ...]).
+[2016-10-26 13:02:43,007][INFO ][cluster.metadata         ] [Beetle II] [tweets] create_mapping [tweet]
+[2016-10-26 13:09:44,034][INFO ][cluster.metadata         ] [Beetle II] [tweets] update_mapping [tweet]
+[2016-10-26 13:54:55,000][INFO ][node                     ] [Beetle II] stopping ...
+[2016-10-26 13:54:55,145][INFO ][node                     ] [Beetle II] stopped
+[2016-10-26 13:54:55,145][INFO ][node                     ] [Beetle II] closing ...
+[2016-10-26 13:54:55,159][INFO ][node                     ] [Beetle II] closed
+[2016-10-26 18:47:29,765][INFO ][node                     ] [Maha Yogi] version[2.4.1], pid[16637], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-10-26 18:47:29,768][INFO ][node                     ] [Maha Yogi] initializing ...
+[2016-10-26 18:47:31,714][INFO ][plugins                  ] [Maha Yogi] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-10-26 18:47:31,835][INFO ][env                      ] [Maha Yogi] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [22.7gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-10-26 18:47:31,835][INFO ][env                      ] [Maha Yogi] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-10-26 18:47:31,837][WARN ][env                      ] [Maha Yogi] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-10-26 18:47:38,506][INFO ][node                     ] [Maha Yogi] initialized
+[2016-10-26 18:47:38,509][INFO ][node                     ] [Maha Yogi] starting ...
+[2016-10-26 18:47:38,796][INFO ][transport                ] [Maha Yogi] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-10-26 18:47:38,813][INFO ][discovery                ] [Maha Yogi] elasticsearch/o95lBcldRbymAdo0FqKCpw
+[2016-10-26 18:47:41,872][INFO ][cluster.service          ] [Maha Yogi] new_master {Maha Yogi}{o95lBcldRbymAdo0FqKCpw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-10-26 18:47:41,906][INFO ][http                     ] [Maha Yogi] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-10-26 18:47:41,906][INFO ][node                     ] [Maha Yogi] started
+[2016-10-26 18:47:42,015][INFO ][gateway                  ] [Maha Yogi] recovered [1] indices into cluster_state
+[2016-10-26 18:47:43,232][INFO ][cluster.routing.allocation] [Maha Yogi] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][4]] ...]).
+[2016-10-26 18:54:47,294][INFO ][cluster.metadata         ] [Maha Yogi] [tweets] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2016-10-26 18:54:47,419][INFO ][cluster.routing.allocation] [Maha Yogi] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][4]] ...]).
+[2016-10-26 18:54:47,448][INFO ][cluster.metadata         ] [Maha Yogi] [tweets] create_mapping [tweet]
