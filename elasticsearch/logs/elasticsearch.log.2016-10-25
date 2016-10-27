@@ -1,0 +1,15 @@
+[2016-10-25 22:38:59,465][INFO ][node                     ] [Freakshow] version[2.4.1], pid[37120], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-10-25 22:38:59,467][INFO ][node                     ] [Freakshow] initializing ...
+[2016-10-25 22:39:01,301][INFO ][plugins                  ] [Freakshow] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-10-25 22:39:01,410][INFO ][env                      ] [Freakshow] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [21.5gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2016-10-25 22:39:01,410][INFO ][env                      ] [Freakshow] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-10-25 22:39:01,412][WARN ][env                      ] [Freakshow] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-10-25 22:39:07,912][INFO ][node                     ] [Freakshow] initialized
+[2016-10-25 22:39:07,913][INFO ][node                     ] [Freakshow] starting ...
+[2016-10-25 22:39:08,191][INFO ][transport                ] [Freakshow] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-10-25 22:39:08,210][INFO ][discovery                ] [Freakshow] elasticsearch/PAWyMNL9TbG-G7CgvL1Gbw
+[2016-10-25 22:39:11,274][INFO ][cluster.service          ] [Freakshow] new_master {Freakshow}{PAWyMNL9TbG-G7CgvL1Gbw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-10-25 22:39:11,299][INFO ][http                     ] [Freakshow] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-10-25 22:39:11,300][INFO ][node                     ] [Freakshow] started
+[2016-10-25 22:39:11,385][INFO ][gateway                  ] [Freakshow] recovered [1] indices into cluster_state
+[2016-10-25 22:39:12,553][INFO ][cluster.routing.allocation] [Freakshow] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweets][4]] ...]).
