@@ -3,7 +3,7 @@
 	<!-- AIzaSyB45rLge0qJX25y20ejv_B9iJG-mHLwt5E -->
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB45rLge0qJX25y20ejv_B9iJG-mHLwt5E&sensor=false"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=XXXXXXX&sensor=false"></script>
     <script type="text/javascript">
 		var map, pointarray, heatmap;
 		var latlongData = [];
@@ -88,8 +88,8 @@
     require_once ('codebird/src/codebird.php');
 
     $cb = \Codebird\Codebird::getInstance();
-    $cb->setConsumerKey('iJl4WSh3qRnKeoe31GiH08EJW', 'bFGgDkZLH1LdVVcT1faEtANBOInHjQ2QiYlUKFIQ8O996mI54F');
-    $cb->setToken('2655667207-aGDwCCxdnH3fA2diZCE5zM0kaRJNWwZ5hnuzZ0P', 'iPk97VGMCa078MvJ2EByeXOtczaHH9gdcsDKSRn1HvESp');
+    $cb->setConsumerKey('XXXXXX', 'XXXXXX');
+    $cb->setToken('XXXXXX', 'XXXXXX');
     $keylist = array('Donald Trump','New York','Manhattan','USA','Bill Gates','NetFlix','Hillary Clinton','White House','Mark Zuckerberg');
     $es = new Elasticsearch\Client();
     if(!isset($_POST['noextract']))
