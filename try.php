@@ -4,8 +4,8 @@
     require_once ('codebird/src/codebird.php');
 
     $cb = \Codebird\Codebird::getInstance();
-    $cb->setConsumerKey('iJl4WSh3qRnKeoe31GiH08EJW', 'bFGgDkZLH1LdVVcT1faEtANBOInHjQ2QiYlUKFIQ8O996mI54F');
-    $cb->setToken('2655667207-aGDwCCxdnH3fA2diZCE5zM0kaRJNWwZ5hnuzZ0P', 'iPk97VGMCa078MvJ2EByeXOtczaHH9gdcsDKSRn1HvESp');
+    $cb->setConsumerKey('XXXXXX', 'XXXXXX');
+    $cb->setToken('XXXXXX', 'XXXXXX');
     $params = array('q'=>'Donald Trump','count'=>100);      
     $reply = (array) $cb->search_tweets($params);
 
