@@ -35,8 +35,8 @@
     require_once ('codebird/src/codebird.php');
 
     $cb = \Codebird\Codebird::getInstance();
-    $cb->setConsumerKey('iJl4WSh3qRnKeoe31GiH08EJW', 'bFGgDkZLH1LdVVcT1faEtANBOInHjQ2QiYlUKFIQ8O996mI54F');
-    $cb->setToken('2655667207-aGDwCCxdnH3fA2diZCE5zM0kaRJNWwZ5hnuzZ0P', 'iPk97VGMCa078MvJ2EByeXOtczaHH9gdcsDKSRn1HvESp');
+    $cb->setConsumerKey('XXXXXXX', 'XXXXXXX');
+    $cb->setToken('XXXXXXX', 'XXXXXXX');
     $keylist = array('Donald Trump','New York','Manhattan','USA','Bill Gates','NetFlix','Hillary Clinton','White House','Mark Zuckerberg');
     if(!isset($_POST['noextract']))
     {
